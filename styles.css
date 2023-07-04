@@ -435,7 +435,7 @@ input[type="number"]::-webkit-outer-spin-button {
 @media only screen and (max-width: 62em) {
   nav {
     display: flex;
-    width: 80%;
+    width: 100%;
     /* margin: 0 auto; */
     /* flex-direction: column; */
     padding: 5px 20px; /* Adjust the padding as needed */
@@ -510,26 +510,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
   input,
   textarea {
-    width: 70%;
+    width: 100%;
   }
-}
-
-/* Media query for screens 600px and larger (tablets and large phones) */
-@media only screen and (min-width: 600px) {
-  /* Add your responsive styles for tablets and large phones here */
-}
-
-/* Media query for screens 768px and larger (landscape tablets) */
-@media only screen and (min-width: 768px) {
-  /* Add your responsive styles for landscape tablets here */
-}
-
-/* Media query for screens 992px and larger (laptops and desktops) */
-@media only screen and (min-width: 992px) {
-  /* Add your responsive styles for laptops and desktops here */
-}
-
-/* Media query for screens 1200px and larger (large laptops and desktops) */
-@media only screen and (min-width: 1200px) {
-  /* Add your responsive styles for large laptops and desktops here */
 }
